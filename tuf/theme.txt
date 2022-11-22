@@ -19,7 +19,7 @@ terminal-border: "1"
   item_font = "Terminus Bold 32"
   item_color = "#5d590f"
   selected_item_color = "#fff42e"
-  item_height = 20
+  item_height = 32
   item_spacing = 1
   item_pixmap_style = "item_*.png"
   selected_item_pixmap_style = "selected_item_*.png"
@@ -28,7 +28,7 @@ terminal-border: "1"
 # Countdown message
 + label {
   left = 0
-  top = 100%-48
+  top = 100%-64
   width = 100%
   align = "center"
   id = "__timeout__"
@@ -59,7 +59,7 @@ terminal-border: "1"
 # Navigation keys hint 
 + label {
   left = 0
-  top = 100%-24
+  top = 100%-32
   width = 100%
   align = "center"
   # DE
